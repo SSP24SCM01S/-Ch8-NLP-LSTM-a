@@ -8,6 +8,6 @@ steps:
 # Deploy container image to Cloud Run
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  args: ['run', 'deploy', 'ch8-nlp-lstm', '--image', 'gcr.io/sidyllic-ethos-420705/ch8-nlp-lstm', '--region', 'us-central1', '--platform', 'managed','--port','80']
+  args: ['run', 'deploy', 'ch8-nlp-lstm', '--image', 'gcr.io/idyllic-ethos-420705/ch8-nlp-lstm', '--region', 'us-central1', '--platform', 'managed','--port','80']
 images:
 - gcr.io/idyllic-ethos-420705/ch8-nlp-lstm
